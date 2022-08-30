@@ -21,3 +21,7 @@ body {
 .checkout {
     min-height: 50vh;
 }
+
+.cart-item {
+    border-bottom: dashed 3px white;
+}
