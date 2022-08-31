@@ -50,14 +50,15 @@
       <div class="col-12 col-md-4">
         <h1 class="text-center">CHECKOUT</h1>
         <div class="menu-border checkout d-flex flex-column justify-content-between p-2">
-          <div id="cart">
+          <!-- this div has an overflow-y scroll -->
+          <div id="cart" class="p-2">
             <!-- This div is the template for cart items -->
             <!-- <div class="d-flex justify-content-between cart-item">
               <p class="m-0 pb-1">Sando Name</p>
               <p class="m-0 pb-1">Sando Price</p>
             </div> -->
           </div>
-          <p class="text-end">Total: $<span>0</span></p>
+          <p class="text-end">Total: $<span id="total">0</span></p>
         </div>
 
       </div>

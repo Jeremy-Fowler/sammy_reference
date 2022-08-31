@@ -3,6 +3,7 @@ body {
     color: white;
 }
 
+
 .menu-border {
     border: solid 3px white;
     border-radius: 18px;
@@ -18,10 +19,25 @@ body {
     box-shadow: 2px 2px 0 2px #FBB732;
 }
 
+.menu-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .checkout {
-    min-height: 50vh;
+    height: 50vh;
 }
 
 .cart-item {
     border-bottom: dashed 3px white;
+}
+
+#cart {
+    overflow-y: scroll;
+}
+
+/* UTILS */
+
+.pointer {
+    cursor: pointer;
 }
